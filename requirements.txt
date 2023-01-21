@@ -1,0 +1,4 @@
+stockfish
+chess
+numpy
+pytorch
