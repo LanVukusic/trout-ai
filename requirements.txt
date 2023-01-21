@@ -1,4 +1,5 @@
 stockfish
 chess
 numpy
-pytorch
+torch
+tqdm
