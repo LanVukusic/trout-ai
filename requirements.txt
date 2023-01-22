@@ -2,4 +2,5 @@ stockfish
 chess
 numpy
 torch
-tqdm
+ipympl
+scikit-learn
