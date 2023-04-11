@@ -175,3 +175,21 @@ def generate_pinned_texts(board: chess.Board, description_format: str = DEFAULT_
         )
 
     return descriptions
+
+
+def generate_coordinate_tokens():
+    """Generate a dictionary of coordinate tokens.
+
+    Returns
+    -------
+    dict
+        A dictionary of coordinate tokens.
+    """
+    files = ["a", "b", "c", "d", "e", "f", "g", "h"]
+
+    tokens = []
+    for i in files:
+        for j in range(1,9):
+            tokens.append(f"{i}{j}")
+
+    return tokens

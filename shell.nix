@@ -27,5 +27,6 @@ let
   };
 in
 pkgs.mkShell {
+  name = "chess ai dev shell";
   buildInputs = [ my-python-env ];
 }
